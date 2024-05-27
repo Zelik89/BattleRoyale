@@ -1,0 +1,43 @@
+GameEntity : "{E8F48DA5F61F0550}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{61745782E4EB5B5A}" {
+     SourceMaterial "Suit_Pilot_US_01_item"
+     AssignedMaterial "{579F6D18C359C136}Assets/Characters/Uniforms/BR_JumpSuit_Blue/Data/BR_JumpSuit_Blue_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Blue Jumpsuit"
+     Description ""
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{817E5FCDA956B6A9}Prefabs/Characters/Uniforms/BR_JumpSuit_Blue/BR_JumpSuit_Blue_Preview.et"
+     }
+    }
+   }
+   InitialStorageSlots {
+    EquipmentStorageSlot Map {
+     Prefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{AAED260FCCFB8484}Assets/Characters/Uniforms/BR_JumpSuit_Blue/Data/BR_JumpSuit_Blue.emat"
+   }
+   ItemMaterialsOverride {
+    "{579F6D18C359C136}Assets/Characters/Uniforms/BR_JumpSuit_Blue/Data/BR_JumpSuit_Blue_item.emat"
+   }
+   BlockedSlots {
+    LoadoutPantsArea "{60F12E5425EC9844}" {
+    }
+   }
+  }
+ }
+}

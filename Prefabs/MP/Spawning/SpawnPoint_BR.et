@@ -1,0 +1,8 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ m_sFaction "BR"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "Battle Royale Spawn Point"
+  Icon "{8A114024148BF52D}UI/Textures/Flags/BR-flag-base-3it.edds.edds"
+ }
+}

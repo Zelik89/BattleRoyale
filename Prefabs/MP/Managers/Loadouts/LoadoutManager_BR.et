@@ -1,0 +1,11 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{61741C1D855D9977}" {
+   m_sLoadoutName "Default"
+   m_sLoadoutResource "{8E02417AC21386C5}Prefabs/Characters/Factions/BR/Character_BR_Loadout_Base.et"
+   m_sLoadoutImage "{F7F3D193C1CA934A}UI/Textures/EditorPreviews/Characters/BattleRoyale/BR/Character_BR_Base.edds"
+   m_sAffiliatedFaction "BR"
+  }
+ }
+}

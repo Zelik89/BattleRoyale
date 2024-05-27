@@ -1,0 +1,127 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_FreeForAllFaction "{56B491183BEFD56B}" : "{FD79075CFB4C9161}Configs/Factions/FreeForAll.conf" {
+   FactionKey "BR"
+   FactionColor 0 0.023 0.078 1
+   UIInfo SCR_FactionUIInfo "{56B49118D8D0A9C5}" {
+    Name "Battle Royale"
+    m_sNameUpper "BARRLE ROYALE"
+   }
+   "Identity of soldiers" FactionIdentity "{617436D001C5301D}" : "{371240E049C5DE15}Configs/Identities/FactionIdentity_BR.conf" {
+   }
+   m_OutlineFactionColor 0 0.246 1 1
+   m_sFactionFlag "{8A114024148BF52D}UI/Textures/Flags/BR-flag-base-3it.edds.edds"
+   m_FactionLabel FACTION_BR
+   m_bFriendlyToSelf 0
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{617411A39CAEA4BB}" {
+     m_sGroupName "Alfa"
+     m_sGroupDescription "Alfa"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3A29363ED}" {
+     m_sGroupName "Bravo"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3A5CE461A}" {
+     m_sGroupName "Charlie"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3A81FFEA4}" {
+     m_sGroupName "Delta"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3ADED207C}" {
+     m_sGroupName "Echo"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3B02BA553}" {
+     m_sGroupName "Foxtrot"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3BA189542}" {
+     m_sGroupName "Golf"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A3BD59C083}" {
+     m_sGroupName "Hotel"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A2412844A0}" {
+     m_sGroupName "India"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A2445E91E0}" {
+     m_sGroupName "Juliett"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A247B1D990}" {
+     m_sGroupName "Kilo"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A24A07DCBC}" {
+     m_sGroupName "Lima"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A24F347EFD}" {
+     m_sGroupName "Mike"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A253141F8F}" {
+     m_sGroupName "November"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A256C53869}" {
+     m_sGroupName "Oscar"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A2583D0FCC}" {
+     m_sGroupName "Papa"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A25DD44EE9}" {
+     m_sGroupName "Quebec"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A261B78E2E}" {
+     m_sGroupName "Romeo"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A2630910DC}" {
+     m_sGroupName "Sierra"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A267E796EF}" {
+     m_sGroupName "Tango"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A26A85B150}" {
+     m_sGroupName "Uniform"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A26C08C76C}" {
+     m_sGroupName "Victor"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A26F247835}" {
+     m_sGroupName "Whiskey"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A272321CE4}" {
+     m_sGroupName "X-ray"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A27548C0A2}" {
+     m_sGroupName "Yankee"
+     m_iGroupSize 2
+    }
+    SCR_GroupPreset "{617411A278D5E429}" {
+     m_sGroupName "Zulu"
+     m_iGroupSize 2
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
+  }
+ }
+}

@@ -1,0 +1,63 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{AF849D3B131B735B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    SCR_EquipmentStorageComponent "{61745786E2B69CC5}" {
+     Priority 2
+     StoragePurpose 64
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+       PivotID "Spine5"
+       Offset -0.11 -0.05 0.14
+       Enabled 0
+       Prefab "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+       AllowedItemTypes {
+        "FLASHLIGHT"
+       }
+       AffectedByOcluders {
+        "ChestLeftTopFront"
+       }
+       AnimatedMeshRefference "{E340F083467A088B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#AR-Uniform_PilotCoveralls_US_Name"
+     Description "#AR-Uniform_PilotCoveralls_US_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.36
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 4000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraDistanceToItem 1.35
+      PreviewModel "{E340F083467A088B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.xob"
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutJacketArea "{61745786E2B69CDA}" {
+   }
+   WornModel "{E340F083467A088B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.xob"
+   ItemModel "{AF849D3B131B735B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_item.xob"
+   OverrideMeshesToHide {
+    "Torso" "Buttocks" "Thigh_L" "Thigh_R" "Arm_L" "Arm_R" "ArmUpper_L" "ArmUpper_R" "Leg_L" "Leg_R" "Groin" "Calf_L" "Calf_R"
+   }
+  }
+ }
+}

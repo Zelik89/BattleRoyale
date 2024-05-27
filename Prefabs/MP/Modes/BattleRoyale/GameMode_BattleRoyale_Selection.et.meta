@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{190AD0E2E260026A}Prefabs/MP/Modes/TeamDeathmatch/GameMode_BattleRoyale_Selection.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

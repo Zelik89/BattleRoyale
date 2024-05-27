@@ -1,0 +1,127 @@
+SCR_MapEntity SCR_MapEntity1 {
+ coords 49.313 1 92.962
+ "Map Geometry Data" "{0DD089CCD442399A}worlds/Arland/Arland.topo"
+ "Satellite background image" "{B48C0B29FBEBA2A1}UI/Textures/Map/worlds/Arland/Arland.edds"
+}
+GenericWorldPPEffect PP_SSR {
+ coords 114.399 0 106.482
+ Priority 0
+ Profile 4
+ {
+  $grp GenericWorldPPEffect {
+   GodRays {
+    Priority 1
+    Profile 1
+   }
+   UnderWater {
+    Priority 2
+    Profile 5
+   }
+   SSDO {
+    Priority 14
+    Profile 3
+   }
+   HBAO {
+    Priority 15
+    Profile 0
+   }
+   HDR {
+    Priority 16
+    Profile 2
+   }
+   RainEffect {
+    coords 2522.945 78.034 1718.33
+    Priority 3
+    Material "{FA4DE95A7276143D}Common/Postprocess/rain.emat"
+   }
+   PPAA {
+    Priority 17
+    Profile 6
+   }
+  }
+ }
+}
+DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
+ coords 0 0 0
+}
+GenericWorldFogEntity Fog_Haze {
+ coords 3331.667 0.003 3067.172
+ FakeDistFog 1
+ HeightDensity 0.94
+ DistanceDensity 0.362
+ HeightOffset 0
+ Color 0.5 0.5 0.5 0
+ ColorBack 0.4 0.4 0.4 0
+}
+GenericWorldLightEntity Lighting {
+ coords 114.399 0 106.482
+ angleX -45
+ angleY -155
+ DirectLightLV 15
+ DirectLightColor 1 1 1 0
+ IndirectLightLV 14
+ IndirectLightColor 1 1 1 0
+ ShadowFactor 1
+ PenumbraMultiplier 50
+ TargetEV 1.7
+ TargetEVLimitBright 1
+ TargetEVLimitDark 0
+ ManualHDRBrightnessLV 13
+}
+SCR_BaseGameMode GameMode_Plain1 : "{190AD0E2E260026A}Prefabs/MP/Modes/BattleRoyale/GameMode_BattleRoyale_Selection.et" {
+ components {
+  BR_PreGameModeStateComponent "{6174631F9D444BFD}" {
+   m_fDuration 282903
+   m_bDisableControls 0
+  }
+ }
+ coords 120.757 1.001 156.387
+}
+SCR_CameraManager SCR_CameraManager : "{33F9FD881E3700CC}Prefabs/World/Game/SCR_CameraManager.et" {
+ coords 0 0 0
+ DefaultViewPosition 350 200 -100
+ DefaultViewAngles -30 -45 0
+}
+TimeAndWeatherManagerEntity TimeAndWeatherManager : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
+ coords 114.399 0 106.482
+ "Internal variant transition" 0
+ "Internal subvariant 0" 0
+ "Internal subvariant 1" 0
+}
+ProjectileSoundsManager ProjectileSoundsManager : "{B4DA8B0024536625}Prefabs/World/Game/ProjectileSoundsManager.et" {
+ coords 114.399 0 106.482
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 114.399 1 106.482
+}
+SCR_FactionManager FactionManager_BR1 : "{D39409162F110DBC}Prefabs/MP/Managers/Factions/FactionManager_BR.et" {
+ Factions {
+  SCR_FreeForAllFaction "{56B491183BEFD56B}" {
+   "Identity of soldiers" FactionIdentity "{617436D001C5301D}" : "{371240E049C5DE15}Configs/Identities/FactionIdentity_BR.conf" {
+   }
+  }
+ }
+}
+ScriptedChatEntity ChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 0 0 0
+ Flags 0
+}
+GenericEntity : "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" {
+ coords 111.974 1 105.326
+}
+SCR_LoadoutManager : "{34EC8ED836A76412}Prefabs/MP/Managers/Loadouts/LoadoutManager_BR.et" {
+}
+$grp SCR_SpawnPoint : "{46FD5A83D827F849}Prefabs/MP/Spawning/SpawnPoint_BR.et" {
+ {
+  coords 112.557 1.306 105.258
+ }
+ {
+  coords 129.812 1.306 105.258
+ }
+ {
+  coords 85.613 1.306 105.258
+ }
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 0 0 0
+}

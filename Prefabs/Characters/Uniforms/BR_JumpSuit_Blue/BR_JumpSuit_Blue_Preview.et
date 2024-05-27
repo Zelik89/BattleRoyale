@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "617457872B14B2F4"
+ components {
+  MeshObject "{617457870F68EFD5}" {
+   Object "{E340F083467A088B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.xob"
+   Materials {
+    MaterialAssignClass "{61745787182152F4}" {
+     SourceMaterial "Suit_Pilot_US_01"
+     AssignedMaterial "{AAED260FCCFB8484}Assets/Characters/Uniforms/BR_JumpSuit_Blue/Data/BR_JumpSuit_Blue.emat"
+    }
+   }
+  }
+ }
+ coords 110.14 1 104.44
+}

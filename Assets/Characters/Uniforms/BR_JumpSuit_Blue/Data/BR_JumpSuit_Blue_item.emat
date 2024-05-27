@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0 0.023 0.078 1
+ NMOMap "{4E5D1E5D857F694F}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01_item_NMO.edds"
+}

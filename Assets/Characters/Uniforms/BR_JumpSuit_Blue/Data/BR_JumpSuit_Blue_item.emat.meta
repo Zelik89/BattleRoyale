@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{579F6D18C359C136}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_Orange_item.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
