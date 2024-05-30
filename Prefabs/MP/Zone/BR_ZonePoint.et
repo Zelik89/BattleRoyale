@@ -1,0 +1,9 @@
+BR_ZonePoint {
+ ID "617B5D92E34431EC"
+ components {
+  RplComponent "{617B5D92DD582453}" {
+   "Rpl State Override" Runtime
+  }
+ }
+ coords 75.367 1 127.562
+}

@@ -1,0 +1,12 @@
+MatCommon {
+ Color 0 0.062 0.231 1
+ Cull none
+ Sort near
+ CastShadow 0
+ ReceiveShadow 0
+ OccludeRain 0
+ OccludeWetness 0
+ AlphaTest 0.154
+ AlphaMul 0.72
+ BlendMode AlphaBlend
+}

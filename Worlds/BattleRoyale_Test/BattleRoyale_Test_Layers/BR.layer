@@ -1,0 +1,23 @@
+$grp BR_ZonePoint : "{DC38CF8ED377842F}Prefabs/MP/Zone/BR_ZonePoint.et" {
+ {
+  coords 116.176 1 126.733
+ }
+ {
+  coords 9.267 1 245.505
+ }
+ {
+  coords 8.773 1 8.306
+ }
+ {
+  coords 250.724 1 9.693
+ }
+ {
+  coords 247.123 1 251.987
+ }
+ {
+  coords 223.333 1 162.091
+ }
+ {
+  coords 238.526 1 192.833
+ }
+}

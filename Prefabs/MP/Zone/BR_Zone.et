@@ -1,0 +1,21 @@
+BR_ZoneTriggerEntity {
+ ID "617B5D92845433B0"
+ components {
+  MeshObject "{617D479351F09DCE}" {
+   Object "{3F65D4EB25CE5324}Assets/Zone/BR_ZoneSphere.xob"
+  }
+  RplComponent "{617B5D92E9A38BCF}" {
+   Enabled 1
+   "Rpl State Override" None
+  }
+ }
+ coords 90.929 1 168.539
+ TriggerShapeType Sphere
+ SphereRadius 100
+ DrawShape 0
+ TriggerActivationType "All changes"
+ PeriodicQueries 1
+ ClassesFilter {
+  "SCR_ChimeraCharacter"
+ }
+}

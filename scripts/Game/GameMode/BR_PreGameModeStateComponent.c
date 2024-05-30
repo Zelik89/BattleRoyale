@@ -3,7 +3,7 @@ class BR_PreGameModeStateComponentClass : SCR_PreGameGameModeStateComponentClass
 {
 }
 
-//! Game mode component that handles the post-game period.
+//! Game mode component that handles the pre-game duration.
 class BR_PreGameModeStateComponent : SCR_PreGameGameModeStateComponent
 {
 

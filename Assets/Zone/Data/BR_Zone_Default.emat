@@ -1,0 +1,19 @@
+MatPBRBasic {
+ Color 0.353 0.44 0.272 1
+ DiffuseIBL 0.558 0.558 0.558 1
+ Diffuse 0.018 0.018 0.018 1
+ ZWrite 0
+ Cull none
+ Sort translucent
+ CastShadow 0
+ NoDecals 1
+ BlendMode AlphaBlend
+ RoughnessScale 0.139
+ MetalnessScale 0.764
+ CavityFromAO 0.1
+ OpacityMap "{60972A1E2BFE9D6F}Assets/_SharedData/Glass/ST_Glass_Dirt_01_A.edds"
+ NormalPower 0.511
+ NMOMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ DetailNormalPower 0.107
+ DetailNormalMap "{7E9A15F454E44987}Assets/_SharedData/Metal/ST_Scratches_03_N.edds"
+}

@@ -1,11 +1,18 @@
 SCR_BaseGameMode : "{E7AF04CBD46D99B0}Prefabs/MP/Modes/TeamDeathmatch/GameMode_TeamDeathmatch_Base.et" {
  ID "56B2B479C6B96951"
  components {
+  BR_GameModeStateComponent "{617B5D92B1960A3E}" {
+   m_fDuration 864000
+  }
+  BR_PostGameModeStateComponent "{617B5D92ADA9EF4C}" {
+  }
+  BR_PreGameModeStateComponent "{6174631F9D444BFD}" {
+   m_fDuration 1
+   m_bDisableControls 1
+  }
   SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
    m_SpawnLogic SCR_MenuSpawnLogic "{617411A632353FC5}" {
    }
-  }
-  BR_PreGameModeStateComponent "{6174631F9D444BFD}" {
   }
  }
 }
